@@ -5,4 +5,7 @@ Instant Sound is a rather simple synth which can create new sound at a press of 
 
 
 # Download & Install
-You can build this plugin yourself with JUCE.
+You can get already built plugin files here:
+https://myroslavartiukh.gumroad.com/l/insta
+
+You can also build this plugin yourself with JUCE.
