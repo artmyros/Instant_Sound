@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - Standalone Plugin", "Instant Sound_StandalonePlugin.vcxproj", "{766E3B61-98A2-9D42-EC69-8A4176DCA015}"
+	ProjectSection(ProjectDependencies) = postProject
+		{766FD906-2FC2-2276-6767-623B3C6C8270} = {766FD906-2FC2-2276-6767-623B3C6C8270}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - VST3", "Instant Sound_VST3.vcxproj", "{356D602B-D048-1380-22E0-BCBC0C71E690}"
+	ProjectSection(ProjectDependencies) = postProject
+		{766FD906-2FC2-2276-6767-623B3C6C8270} = {766FD906-2FC2-2276-6767-623B3C6C8270}
+		{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191} = {EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - LV2 Plugin", "Instant Sound_LV2Plugin.vcxproj", "{51F9A7E8-82C7-85F6-3C8F-5D50F87B54C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{766FD906-2FC2-2276-6767-623B3C6C8270} = {766FD906-2FC2-2276-6767-623B3C6C8270}
+		{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4} = {9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - Shared Code", "Instant Sound_SharedCode.vcxproj", "{766FD906-2FC2-2276-6767-623B3C6C8270}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - LV2 Manifest Helper", "Instant Sound_LV2ManifestHelper.vcxproj", "{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Instant Sound - VST3 Manifest Helper", "Instant Sound_VST3ManifestHelper.vcxproj", "{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356D602B-D048-1380-22E0-BCBC0C71E690}.Debug|x64.ActiveCfg = Debug|x64
+		{356D602B-D048-1380-22E0-BCBC0C71E690}.Debug|x64.Build.0 = Debug|x64
+		{356D602B-D048-1380-22E0-BCBC0C71E690}.Release|x64.ActiveCfg = Release|x64
+		{356D602B-D048-1380-22E0-BCBC0C71E690}.Release|x64.Build.0 = Release|x64
+		{766E3B61-98A2-9D42-EC69-8A4176DCA015}.Debug|x64.ActiveCfg = Debug|x64
+		{766E3B61-98A2-9D42-EC69-8A4176DCA015}.Debug|x64.Build.0 = Debug|x64
+		{766E3B61-98A2-9D42-EC69-8A4176DCA015}.Release|x64.ActiveCfg = Release|x64
+		{766E3B61-98A2-9D42-EC69-8A4176DCA015}.Release|x64.Build.0 = Release|x64
+		{51F9A7E8-82C7-85F6-3C8F-5D50F87B54C3}.Debug|x64.ActiveCfg = Debug|x64
+		{51F9A7E8-82C7-85F6-3C8F-5D50F87B54C3}.Debug|x64.Build.0 = Debug|x64
+		{51F9A7E8-82C7-85F6-3C8F-5D50F87B54C3}.Release|x64.ActiveCfg = Release|x64
+		{51F9A7E8-82C7-85F6-3C8F-5D50F87B54C3}.Release|x64.Build.0 = Release|x64
+		{766FD906-2FC2-2276-6767-623B3C6C8270}.Debug|x64.ActiveCfg = Debug|x64
+		{766FD906-2FC2-2276-6767-623B3C6C8270}.Debug|x64.Build.0 = Debug|x64
+		{766FD906-2FC2-2276-6767-623B3C6C8270}.Release|x64.ActiveCfg = Release|x64
+		{766FD906-2FC2-2276-6767-623B3C6C8270}.Release|x64.Build.0 = Release|x64
+		{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}.Debug|x64.ActiveCfg = Debug|x64
+		{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}.Debug|x64.Build.0 = Debug|x64
+		{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}.Release|x64.ActiveCfg = Release|x64
+		{9B4F3130-60E3-0CDA-5634-DCFE07B9DAB4}.Release|x64.Build.0 = Release|x64
+		{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}.Debug|x64.ActiveCfg = Debug|x64
+		{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}.Debug|x64.Build.0 = Debug|x64
+		{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}.Release|x64.ActiveCfg = Release|x64
+		{EAC6DEEB-942D-DD96-EC76-8A89FBBF5191}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
